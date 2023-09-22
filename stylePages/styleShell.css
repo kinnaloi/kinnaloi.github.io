@@ -1,0 +1,190 @@
+body {
+  background-image: linear-gradient(
+    90deg,
+    rgba(151, 151, 244, 0.471),
+    white,
+    rgba(136, 237, 136, 0.075),
+    rgba(38, 240, 233, 0.239)
+  );
+  font-family: "Trebuchet MS", sans-serif;
+  margin: 2px;
+}
+.roundDiv {
+  border-radius: 10px;
+}
+.priceList {
+  border: 1px solid black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 10px;
+  box-shadow: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.priceSub {
+  color: red;
+}
+#buyNowWhatsLink {
+  text-align: center;
+}
+.supClass {
+  color: rgb(255, 255, 255);
+  font: bold;
+  margin: 3px;
+  padding: 2px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.636);
+}
+
+.liClass {
+  border-radius: 2px;
+  border: 1px solid rgba(225, 223, 223, 0.974);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 2px;
+}
+
+.col1 {
+  text-align: center;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 7px;
+  height: 80px;
+  padding: 10px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 255, 255, 0.276),
+    rgba(127, 238, 246, 0.496),
+    rgba(37, 203, 198, 0.416)
+  );
+}
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child {
+  margin-left: 0;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 */
+}
+
+* GRID OF THREE */ .span_3_of_3 {
+  width: 100%;
+}
+.span_2_of_3 {
+  width: 66.13%;
+}
+.span_1_of_3 {
+  width: 32.26%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+  .span_3_of_3,
+  .span_2_of_3,
+  .span_1_of_3 {
+    width: 100%;
+  }
+}
+
+/* New Update */
+#priceSection {
+  margin: 20px;
+  padding: 10px;
+}
+#priceSection div {
+  height: 40px;
+  width: 300px;
+
+  box-shadow: 5px salmon;
+  background-image: linear-gradient(
+    90deg,
+    rgba(142, 142, 250, 0.715),
+    rgba(255, 255, 255, 0.788),
+    rgba(188, 249, 188, 0.559)
+  );
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 9px;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+#priceSection div p sub {
+  color: red;
+}
+#priceSectionForShell {
+  margin: 20px;
+  padding: 10px;
+}
+#priceSectionForShell div {
+  height: 40px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+
+  box-shadow: 5px salmon;
+  background-image: linear-gradient(
+    90deg,
+    rgba(142, 142, 250, 0.715),
+    rgba(255, 255, 255, 0.788),
+    rgba(188, 249, 188, 0.559)
+  );
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 9px;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+#priceSectionForShell div p sub {
+  color: red;
+}
+
+footer {
+  margin-bottom: 5px;
+}
+.helpToCustomar {
+  margin: 30px;
+}
+.helpToCustomar div {
+  border: 1px solid;
+  border-radius: 7px;
+  padding: 10px;
+}
+.helpToCustomar div h1 {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #000;
+}
+.helpToCustomar div h3 {
+  font-weight: bold;
+}

@@ -1,0 +1,112 @@
+body {
+  background-repeat: repeat;
+  margin: 2px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 255, 0.506),
+    rgba(255, 255, 255, 0.628),
+    rgba(150, 240, 109, 0.76)
+  );
+}
+.carouselSection {
+  padding-top: 10px;
+
+  /* padding-left: 60px;
+  padding-right: 60px; */
+  padding-bottom: 20px;
+
+  margin-bottom: 3px;
+}
+
+.carouselSection div img {
+  border-radius: 15px;
+  padding: 10px;
+  /* height: 50%;
+  width: 70%; */
+}
+
+.supClass {
+  color: rgb(255, 255, 255);
+  font: bold;
+  margin: 3px;
+  padding: 2px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.636);
+}
+
+.liClass {
+  border-radius: 2px;
+  border: 1px solid rgba(225, 223, 223, 0.974);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 2px;
+}
+
+.muradStyle {
+  font-family: monospace;
+}
+.roundDiv {
+  border-radius: 10px;
+}
+.ad {
+  margin: 1px;
+  border-radius: 5px;
+  padding: top 50px;
+}
+.item {
+  padding: 20px;
+  display: inline-block;
+}
+.cardtext {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.cardtitle {
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: large;
+  font-weight: bold;
+}
+
+.cardDiv:hover .cardImageTop {
+  transform: scale(1.1);
+  transition: 2s;
+  overflow: hidden;
+}
+
+.catagoryNameDiv {
+  width: 350px;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 2px 1px 2px 1px #808080b5;
+  border-radius: 8px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 19px;
+  background-color: #7fb6ff8d;
+  margin: 20px;
+
+  user-select: none;
+}
+.cardDiv {
+  user-select: none;
+
+  overflow: hidden;
+  margin: 20px;
+}
+.test {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.buyNowButton {
+  margin: 10px;
+  width: 240px;
+}

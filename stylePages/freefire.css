@@ -1,0 +1,66 @@
+body {
+  margin: 2px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 255, 0.506),
+    rgba(255, 255, 255, 0.628),
+    rgba(150, 240, 109, 0.76)
+  );
+}
+.supClass {
+  color: rgb(255, 255, 255);
+  font: bold;
+  margin: 3px;
+  padding: 2px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.636);
+}
+
+.liClass {
+  border-radius: 2px;
+  border: 1px solid rgba(225, 223, 223, 0.974);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 2px;
+}
+
+.muradStyle {
+  font-family: monospace;
+}
+.roundDiv {
+  border-radius: 10px;
+}
+.ad {
+  margin: 1px;
+  border-radius: 5px;
+  padding: top 50px;
+}
+.item {
+  padding: 20px;
+  display: inline-block;
+}
+.buttonSection {
+  display: flex;
+  justify-content: center;
+}
+.buttonClass {
+  margin-left: 1px;
+  margin-right: 1px;
+  font-size: 14px;
+  margin-right: 10px;
+  width: 140px;
+}
+.buttonClass1 {
+  margin-left: 1px;
+  margin-right: 1px;
+  font-size: 14px;
+  margin-left: 10px;
+  width: 140px;
+}
+.buttonClass img {
+  margin-left: 1px;
+  margin-right: 1px;
+  width: 25px;
+}
+
