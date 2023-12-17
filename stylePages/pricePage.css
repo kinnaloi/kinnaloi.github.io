@@ -369,7 +369,15 @@ header {
   justify-content: center;
 }
 .buyNowButton {
-  background-image: linear-gradient(90deg, #ff5555, #98ff4e, #2bf83c);
+  background-image: linear-gradient(90deg, #56d45660, rgb(212, 240, 55));
   border-radius: 7px;
   justify-content: center;
-  }
+  width: 190px;
+  height: 50px;
+}
+.buyNowButton:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: 2s;
+  box-shadow: 5px 5px black;
+}

@@ -32,25 +32,30 @@ function buyNow() {
 
   var waLink = "https://wa.me/";
   var myPhone = "+8801755267077";
+
   var text =
-    "Hey Please review it " +
+    "*Hey Please review it* " +
     "%0a" +
-    "Player UID : " +
+    "*Player UID* : _" +
     idNumber +
+    "_" +
     "%0a" +
     "*Item* : " +
     item +
     "%0a" +
-    "Phone Number : " +
+    "*Phone Number* : " +
     phoneNumber +
     "%0a" +
-    "Transection ID : " +
+    "*TransectionID* : " +
     trxnId +
     "%0a" +
-    "Path : " +
+    "*Path* : " +
     mobileBank +
     "%0a";
   let url = waLink + myPhone + "?text=" + text;
-  alert("Processing ...\n Press Continue to Chat");
-  window.open(url, "_blank");
+  if (idNumber.length <= 3 || item.length == 0 || trxnId.length == 0) {
+    alert(" Proper Information Missing");
+  } else {
+    window.open(url, "_blank");
+  }
 }
