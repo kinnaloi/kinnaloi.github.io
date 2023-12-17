@@ -71,96 +71,71 @@
     </header>
 
     <!-- This section for collecting player ID  -->
-    <section class="playerIdSection ">
-        <div class="playerIdSectionDiv">
-            <p>Account Information</p>
-            <hr style="border-radius: 10px;margin: 20px;">
-            <p style="
-            font-weight: 100;
-            text-align: left;
-            font-size: 20px;
-            margin-left: 20px;
-            color: black;
-            text-align: center;
-            ">Enter player ID</p>
-            <input type="number" name="playerIdName" id="playerId" placeholder="Enter the player ID" maxlength="11"
-                minlength="8">
-        </div>
-    </section>
+
 
     <!-- This section will design for JS file that autometically enter Name and price  -->
-    <section class="priceSection">
+    <section class="priceSectionNew ">
 
 
     </section>
+    <section class="playerIdSection">
+        <div class="playerIdSectionDiv">
+            <p style="
+            text-align: center;
+            font-size: 20px;
+            color: black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight:700;
+            ">Account Information</p>
+            <hr style="border-radius: 10px;margin: 20px;">
+            <div class="infoo">
+                <p class="accTitle">Enter player ID
+                    <input type="number" name="playerIdName" class="accInfoBox idValue"
+                        placeholder="Enter the player ID" maxlength="11" minlength="8">
+                </p>
+            </div>
+            <div class="infoo">
+                <p class="accTitle">
+                    Diamond / Membership
+                    <input type="number" name="playerIdName" class="accInfoBox diamondValue"
+                        placeholder="example : 100 Diamond" maxlength="11" minlength="8">
+                </p>
+            </div>
+            <div class="infoo">
+                <p class="accTitle">Transection Id
+                    <input type="number" name="playerIdName" class="accInfoBox transectionValue"
+                        placeholder="exmple : PXSHJ234N" maxlength="11" minlength="8">
+                </p>
+
+            </div>
+            <div class="infoo">
+                <p class="accTitle">
+                    Phone Number
+                    <input type="number" name="playerIdName" class="accInfoBox phoneValue " placeholder="Phone Number"
+                        maxlength="11" minlength="8">
+                </p>
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </section>
+
+    <div style="text-align: center;">
+        <button class="buyNowButton" onclick="buyNow">BUY Now</button>
+    </div>
     <div>
         <p class="priceP"></p>
     </div>
+    <!-- <section class="paymentMethodSection "> -->
     <section class="paymentMethodSection ">
-        <div>
 
 
-            <p style="
-                font-weight: bold;
-                font-size: 30px;
-                text-align: center;
-                color: green;
-                ">Select Payment</p>
-            <hr style="border-radius: 10px;margin: 20px;">
-            <button type="button" class="paymentMethodButton">
-                <div class="paymentMethodButtonDiv">
-                    <p style="
-                        font-weight: bold;
-                        margin: 2px;
-                        margin-top: 5px;
-                        color: #33b0f9;
-                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                        border-radius: 9px;
-                        border: 1px solid;
-                        padding-bottom: 5px;
-                        padding-top: 5px;
-                        background-image: linear-gradient(135deg,white,#00ffaa2f);
-                        ">AMI KINBO<sup style="color: red;">wallet</sup></p>
-                    <p style="
-                    padding-top: 14px;
-                    font-weight: 600;
-                    ">Comming soon</p>
-                    <img src="https://cdn-icons-png.flaticon.com/512/7595/7595571.png" alt=""
-                        class="paymentMethodButtonVerifyImg">
-                </div>
-            </button>
-        </div>
-        <div class="checkoutButtonSection ">
-            <!-- <a href="https://wa.me/+8801755267077" target="_blank"> -->
-                <!-- <button type="button" class="checkoutButton btn-primary" onclick="commingSoon();"> -->
-                <button type="button" class="checkoutButton btn-primary" onclick="buyNow();">
-                    <!-- <div class="checkoutButtonDiv"> -->
-                    <p>Buy Now</p>
-                    <!-- </div> -->
-                </button>
-            <!-- </a> -->
 
-        </div>
-
-    </section>
-
-    <p style="text-align: center;"><b>OR</b></p>
-    <section style="margin: 30px;min-width: 380px;
-  max-width: 100%;
-  width: 100%;">
-        <div class="buyNowDiv ">
-            <p id="buyNowWhatsLink">
-                <a href="https://wa.me/+8801755267077" target="_blank" style="text-decoration: none;">
-                    <button type="button" class="btn btn-outline-success"><img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png"
-                            width="30">Buy
-                        Now</button></a>
-                <a href="https://t.me/mozaddedalfeshani" target="_blank" style="text-decoration: none;">
-                    <button type="button" class="btn btn-outline-success"><img
-                            src="https://img.freepik.com/free-icon/telegram_318-688942.jpg" width="30">Buy
-                        Now</button></a>
-            </p>
-        </div>
     </section>
 
     </br></br>
