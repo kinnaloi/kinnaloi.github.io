@@ -2,6 +2,14 @@
   "freefire": [
     [
       {
+        "name": "25 Diamond",
+        "price": 30
+      },
+      {
+        "name": "50 Diamond",
+        "price": 50
+      },
+      {
         "name": "💎 115  diamond",
         "price": 75
       },
@@ -65,27 +73,27 @@
     [
       {
         "name": "60 UC",
-        "price": 120
+        "price": "125"
       },
       {
         "name": "325 UC",
-        "price": 530
+        "price": "575"
       },
       {
         "name": "660 UC",
-        "price": 1050
+        "price": "1160"
       },
       {
         "name": "1800 UC",
-        "price": 2560
+        "price": "Comming Soon"
       },
       {
         "name": "3850 UC",
-        "price": 5150
+        "price": "Comming Soon"
       },
       {
         "name": "8100 UC",
-        "price": 10050
+        "price": "Comming Soon"
       }
     ]
   ],

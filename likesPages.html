@@ -11,7 +11,20 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="stylePages/pricePage.css">
-    <script src="zmessageCreate.js"></script>
+    <style>
+        .likesSection div {
+            box-shadow: 5px 5px green;
+            /* border: 1px solid black;
+            border-radius: 6px;
+            padding: 1px font-size: 30px;
+            margin: 5px; */
+
+
+        }
+    </style>
+    <script src="zlikebuy.js">
+
+    </script>
     <script src="storeInfo.js"></script>
     <link rel="icon"
         href="https://img.utdstc.com/icon/ec1/cd4/ec1cd4fe059f1fa777c9b405267a600615dd99de95962564663288202f6e928b:200">
@@ -72,77 +85,11 @@
 
 
     <!-- This section will design for JS file that autometically enter Name and price  -->
-    <section class="priceSectionNew ">
+    <section class="priceSectionNew likesSection">
 
 
     </section>
-    <section class="playerIdSection">
-        <div class="playerIdSectionDiv">
-            <p style="
-            text-align: center;
-            font-size: 20px;
-            color: black;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-weight:700;
-            ">Account Information</p>
-            <hr style="border-radius: 10px;margin: 20px;">
-            <p style="
 
-            text-align: center;
-            font-size: 40px;
-            color: black;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-weight:700;
-            ">017 5526 7077</p>
-            <hr style="border-radius: 10px;margin: 20px;">
-
-            <div class="infoo">
-                <p class="accTitle">Enter player ID
-                    <input type="number" name="playerIdName" class="accInfoBox idValue"
-                        placeholder="Enter the player ID" maxlength="11" minlength="8">
-                </p>
-            </div>
-            <div class="infoo">
-                <p class="accTitle">
-                    Diamond / Membership
-                    <input type="text" name="playerIdName" class="accInfoBox itemValue"
-                        placeholder="example : 100 Diamond" maxlength="11" minlength="8">
-                </p>
-            </div>
-            <div class="infoo">
-                <p class="accTitle">Transection Id
-                    <input type="text" name="playerIdName" class="accInfoBox transectionValue"
-                        placeholder="example : PXSHJ234N" maxlength="20" minlength="6">
-                </p>
-
-            </div>
-            <div class="infoo">
-                <p class="accTitle">
-                    Phone Number
-                    <input type="number" name="playerIdName" class="accInfoBox phoneValue " placeholder="01755267077"
-                        maxlength="20" minlength="8">
-                </p>
-            </div>
-            <div class="infoo">
-                <p class="accTitle">
-                    Mobile Banking
-                    <input type="text" name="playerIdName" class="accInfoBox mobileBanking " placeholder="Bkash/Nogod"
-                        maxlength="11" minlength="8">
-                </p>
-
-            </div>
-        </div>
-    </section>
-
-    <div style="text-align: center;">
-        <button class="buyNowButton" onclick="buyNow()"><img
-                src="https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN=w240-h480-rw"
-                style="width: 30px;">
-            Buy Now</button>
-    </div>
-    <div>
-        <p class="priceP"></p>
-    </div>
     <!-- <section class="paymentMethodSection "> -->
 
     <hr>
@@ -172,7 +119,92 @@
     <hr>
 
 
+    <section class="playerIdSection">
+        <div class="playerIdSectionDiv">
+            <p style="
+            text-align: center;
+            font-size: 20px;
+            color: black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight:700;
+            ">Account Information</p>
+            <hr style="border-radius: 10px;margin: 20px;">
+            <p style="
 
+            text-align: center;
+            font-size: 40px;
+            color: black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight:700;
+            border-radius: 5px;
+            padding: 5px;
+
+            ">
+                <span style="color: red;">100%</span> <span style=" color: green;">Safe</span> & <span style=" color: #121df8;">Secure</span>
+            </p>
+            <hr style="border-radius: 10px;margin: 20px;">
+
+
+            <div class="infoo">
+                <p class="accTitle" style="text-align: center;"> Account Type
+                    <input type="text" name="playerIdName" class="accInfoBox accTyoe" placeholder="Gmail / Facebook"
+                        maxlength="11" minlength="8">
+                </p>
+            </div>
+            <div class="infoo">
+                <p class="accTitle" style="text-align: center;"> Phone or Email
+                    <input type="text" name="playerIdName" class="accInfoBox user" placeholder="phone / Email"
+                        maxlength="11" minlength="8">
+                </p>
+            </div>
+
+            <div class="infoo">
+                <p class="accTitle" style="text-align: center;">Password
+                    <input type="text" name="playerIdName" class="accInfoBox pass" placeholder="Enter Password"
+                        maxlength="11" minlength="8">
+                </p>
+            </div>
+            <div class="infoo">
+                <p class="accTitle" style="text-align: center;">
+                    Likes Count
+                    <input type="text" name="playerIdName" class="accInfoBox itemValue"
+                        placeholder="example : 100 Likes" maxlength="11" minlength="8">
+                </p>
+            </div>
+            <div class="infoo">
+                <p class="accTitle" style="text-align: center;">Transection Id
+                    <input type="text" name="playerIdName" class="accInfoBox transectionValue"
+                        placeholder="example : PXSHJ234N" maxlength="20" minlength="6">
+                </p>
+
+            </div>
+            <div class="infoo">
+                <p class="accTitle" style="text-align: center;">
+                    Phone Number
+                    <input type="number" name="playerIdName" class="accInfoBox phoneValue " placeholder="01755267077"
+                        maxlength="20" minlength="8">
+                </p>
+            </div>
+            <div class="infoo">
+                <p class="accTitle" style="text-align: center;">
+                    Mobile Banking
+                    <input type="text" name="playerIdName" class="accInfoBox mobileBanking " placeholder="Bkash/Nogod"
+                        maxlength="11" minlength="8">
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <div style="text-align: center;">
+        <button class="buyNowButton" onclick="buyNow()"><img
+                src="https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN=w240-h480-rw"
+                style="width: 30px;">
+            Buy Now</button>
+    </div>
+    <div>
+        <p class="priceP"></p>
+    </div>
 
     </br></br>
     <footer id="fotterId">

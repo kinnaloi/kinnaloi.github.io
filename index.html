@@ -14,8 +14,18 @@
     <!-- source pages  -->
     <link rel="stylesheet" href="stylePages/style.css">
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2780/2780137.png">
-    <script src="scriptJson.js"></script>
     <script src="storeInfo.js"></script>
+    <script>
+        function searchItemButton() {
+            var searchThings = document.getElementsByClassName("searchItem").value;
+            searchThings = searchThings.toLowerCase();
+            alert(searchThings);
+
+            if (searchThings == "free fire") {
+                window.open("https://kinnaloi.github.io/freefire.html");
+            }
+        }
+    </script>
 
 </head>
 <body>
@@ -46,6 +56,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="https://discord.gg/VZ93PYTS5e">Discord</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://discord.gg/VZ93PYTS5e">Seller Information</a>
+                        </li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -62,6 +75,8 @@
                                             Reply </sup></a></li>
 
                             </ul>
+                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link " aria-current="page" href="about.html">About</a>
                         </li>
@@ -79,9 +94,13 @@
                                 margin-top: 20px;
                                 ">
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                    <input class="form-control me-2 searchItem" type="search" placeholder="Search" aria-label="Search"
                         style="width: 150%;">
-                    <a href="#ad"><button class="btn btn-outline-success" type="submit">Search</button></a>
+
+                    <!-- <button class="btn btn-outline-success " onclick="searchItemButton()" type="submit">
+                        Search
+                    </button> -->
+                    <button type="submit" class="btn btn-outline-success" onclick="searchItemButton">search</button>
                 </form>
             </div>
         </nav>
@@ -98,8 +117,9 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://w.forfun.com/fetch/0a/0af3ca5c4547b7660f2af9d04ee9b512.jpeg" class="d-block w-100"
-                        alt="...">
+                    <!-- <img src="https://w.forfun.com/fetch/0a/0af3ca5c4547b7660f2af9d04ee9b512.jpeg" class="d-block w-100" -->
+                    <img src="https://images.hindustantimes.com/tech/img/2023/10/03/1600x900/Garena_FF_Max_1646187536940_1696295891535.jpg"
+                        class="d-block w-100" alt="...">
 
                     <div class="carousel-caption d-none d-md-block">
                         <h3>Free Fire</h3>
@@ -164,6 +184,29 @@
                             <a href="freefire.html" class="btn btn-primary"
                                 style="font-family: Copperplate, Papyrus, fantasy;">See Free Fire Item</a>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card cardDiv" style="width: 18rem;">
+                        <!-- image ration 840*525 -->
+                        <img src="https://github.com/mozaddedalfeshani/bslphotos/blob/main/repo/muradianStore/pubg.jpg?raw=true"
+                            class="card-img-top cardImageTop" alt="...">
+                        <div class="card-body">
+                            <h5 class="cardtitle">Buy Free Fire Likes</h5>
+                            <p class="cardtext">
+                                Buy Free Fire id Likes in very simple way , we provide 500 like in 2 hour without any
+                                issue . So don't be late try our new like feature.
+                                <hr>
+                                Normally : <b>1000</b> like = 200 days
+                                From US : <b>1000</b> likes = <b>2</b> days
+
+                                </br>
+                                <b>Price : 100 ~ 2000 Taka</b>
+                            </p>
+                            <a href="likesPages.html" class="btn btn-primary"
+                                style="font-family: Copperplate, Papyrus, fantasy;">See Pubg
+                                Item</a>
                         </div>
                     </div>
                 </div>
@@ -238,8 +281,10 @@
                                 </br>
                                 <b>Price : 100 ~ 2000 Taka</b>
                             </p>
-                            <a href="https://wa.me/+8801755267077" class="btn btn-primary"
-                                style="font-family: Copperplate, Papyrus, fantasy;">Buy Presentation
+                            <a href="https://wa.me/+8801755267077?text=Hey%20I%20want%20Talk%20with%20you"
+                                target="_blank" class="btn btn-primary"
+                                style="font-family: Copperplate, Papyrus, fantasy;">Buy
+                                Presentation
                                 Slide</a>
                         </div>
                     </div>
@@ -273,7 +318,6 @@
                                     style="font-family: Copperplate, Papyrus, fantasy;">MY Shell Price
                                 </a>
                             </p>
-
                         </div>
                     </div>
                 </div>
@@ -291,7 +335,8 @@
                                 </br>
                                 <b>Price : 420 Taka only</b>
                             </p>
-                            <a href="https://wa.me/+8801755267077" class="btn btn-primary buyNowButton"
+                            <a href="https://wa.me/+8801755267077?text=Hey%20I%20want%20Talk%20with%20you"
+                                class="btn btn-primary buyNowButton"
                                 style="font-family: Copperplate, Papyrus, fantasy;">Buy Now
                             </a>
                         </div>

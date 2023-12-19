@@ -1,0 +1,29 @@
+{
+  "like": [
+    {
+      "name": 110,
+      "time": "1 Day",
+      "price": 20
+    },
+    {
+      "name": 500,
+      "time": "1 Day",
+      "price": 50
+    },
+    {
+      "name": 1000,
+      "time": "1~2 Day",
+      "price": 95
+    },
+    {
+      "name": 1100,
+      "time": "2 Day",
+      "price": 110
+    },
+    {
+      "name": 1500,
+      "time": "2 Day",
+      "price": 145
+    }
+  ]
+}
