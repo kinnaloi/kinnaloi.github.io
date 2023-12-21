@@ -21,9 +21,9 @@ fetch("./database/likes.json")
             "
             
             >
-            <p><b>Like Count</b> : <span style = "color :red">${data.like[i].name}</span></p>
+            <p><b>Like Count</b> : <span style = "color :red ">${data.like[i].name} Likes</span> </p>
             <p><b>Time </b>: <span style ="color : green">${data.like[i].time}</p></span>
-            <p><b>price </b>: <span style ="color : #f55707">${data.like[i].price}</p></span>
+            <p><b>price </b>: <span style ="color : #f55707">${data.like[i].price} taka</p></span>
              </div>
              </button>
             `;

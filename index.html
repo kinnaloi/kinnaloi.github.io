@@ -17,14 +17,23 @@
     <script src="storeInfo.js"></script>
     <script>
         function searchItemButton() {
-            var searchThings = document.getElementsByClassName("searchItem").value;
+            var searchThings = document.querySelector(".searchItem").value;
             searchThings = searchThings.toLowerCase();
             alert(searchThings);
+            console.log("searchThings");
 
-            if (searchThings == "free fire") {
-                window.open("https://kinnaloi.github.io/freefire.html");
+            if (searchThings == "free fire" || searchThings == "ff") {
+                window.open("https://kinnaloi.github.io/freefire.html",);
+
+            }
+            else if (searchThings == "pubg" || searchThings == "pubg topup" || searchThings == "Pubg Item") {
+                window.open("https:://kinnaloi.github.io/pubg.html", "_self");
+            }
+            else {
+                window.open("https://kinnaloi.github.io/index.html");
             }
         }
+
     </script>
 
 </head>
@@ -96,12 +105,12 @@
                                 ">
                 <form class="d-flex" role="search">
                     <input class="form-control me-2 searchItem" type="search" placeholder="Search" aria-label="Search"
-                        style="width: 150%;">
+                        name="searchItem" style="width: 150%;">
 
                     <!-- <button class="btn btn-outline-success " onclick="searchItemButton()" type="submit">
                         Search
                     </button> -->
-                    <button type="submit" class="btn btn-outline-success" onclick="searchItemButton">search</button>
+                    <button type="submit" class="btn btn-outline-success" onclick="searchItemButton()">search</button>
                 </form>
             </div>
         </nav>

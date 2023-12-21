@@ -8,7 +8,6 @@ fetch("database/storeInfo.json")
     space += `
     <img src="${data[2].titleIcon}" alt="" width="30"
     height="24" class="d-inline-block align-text-top " style="margin-left: 13px;">
-
     ${data[0].storeName}<sup style="color: #ebd40ce7;">store</sup>`;
     get.innerHTML = space;
   });
