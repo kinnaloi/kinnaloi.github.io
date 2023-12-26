@@ -64,7 +64,13 @@ body {
 }
 .cardtitle {
   font-family: Copperplate, Papyrus, fantasy;
+  text-align: center;
+  color: #ffff13;
+  background-color: black;
+  margin-left: -22px;
+  margin-right: -22px;
   font-size: large;
+
   font-weight: bold;
 }
 

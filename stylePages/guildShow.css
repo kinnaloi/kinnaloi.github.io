@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+}
+.GuildShowSection {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: none;
+}
+
+.GuildShowSection div div {
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 9px;
+  background-image: linear-gradient(90deg, #4cf97a, #f6f6d2, #3ef7f7);
+}
+.GuildShowSection .titleShow {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.guildInformation {
+  width: 20%;
+  height: 500px;
+}
+
+.GuildShowDiv {
+  overflow: hidden;
+  width: 99%;
+  height: 90%;
+}
+.GuildShowDiv img {
+  border-radius: 8px;
+}
+.GuildShowDiv img:hover {
+  border-radius: 8px;
+  transform: rotate(3deg);
+  transition: 2s;
+}
+.GuildShowDiv {
+  width: 100%;
+}

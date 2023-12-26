@@ -1,0 +1,40 @@
+{
+  "playerId": [
+    {
+      "uid": 1,
+      "name ": " MURAD FF",
+      "level ": "70",
+      "pos": "Acting Guild Leader",
+      "choose": "yes"
+    },
+    {
+      "uid": 2010406972,
+      "name ": " Badhon",
+      "level ": "70",
+      "pos": "Acting Guild Leader",
+      "choose": "no"
+    },
+
+    {
+      "uid": "1674462658",
+      "name ": " EMON",
+      "level ": "73",
+      "pos": "Acting Guild Leader",
+      "choose": "no"
+    },
+    {
+      "uid": "2645928997",
+      "name ": " MURAD FF",
+      "level ": "70",
+      "pos": "Acting Guild Leader",
+      "choose": "no"
+    },
+    {
+      "uid": "2645928997",
+      "name ": " MURAD FF",
+      "level ": "70",
+      "pos": "Acting Guild Leader",
+      "choose": "no"
+    }
+  ]
+}
