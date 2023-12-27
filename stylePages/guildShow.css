@@ -39,5 +39,8 @@ body {
   transition: 2s;
 }
 .GuildShowDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
