@@ -1,4 +1,4 @@
-fetch("./database/database.json")
+fetch("../database/database.json")
   .then(function (respose) {
     return respose.json();
   })
