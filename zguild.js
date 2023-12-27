@@ -1,6 +1,8 @@
-function clickToMemberInfo() {
-  fetch("./database/guildInfo.json")
+async function clickToMemberInfo() {
+  //async use for wait fetch finish
+  await fetch("./database/guildInfo.json") //await use for wait fetch finish
     .then(function (respose) {
+      // await isn't use this line because it's not fetch finish
       return respose.json();
     })
     .then(function (data) {
@@ -9,9 +11,10 @@ function clickToMemberInfo() {
       let space = " ";
       let iconUrl = "assets/image/unverified.jpeg";
 
-      // space += `<p class="titleOfShow"style="text-align = "center";>Player Info</p> <hr style="margin:10px;">`;
+      // space += `<p style="text-align = "center";position : absulote;>Player Info</p> <hr style="margin:10px;">`;
       let changePosition = 0;
-      for (var pick in data.playerId[changePosition]) {
+      for (var pick in data.playerId) {
+        console.log(pick);
         if (data.playerId[changePosition].uid == inputValue.value) {
           if (data.playerId[changePosition].choose == "yes") {
             iconUrl = "./assets/image/verified.png";
@@ -26,9 +29,9 @@ function clickToMemberInfo() {
                     Member Info
                   </div>
                   <ul class="list-group list-group-flush">
-                  <li class="list-group-item"> ${data.playerId[0]["name "]} </li>
+                  <li class="list-group-item"> ${data.playerId[changePosition]["name"]} </li>
                     <li class="list-group-item">${data.playerId[changePosition].uid} </li>                    
-                    <li class="list-group-item">Level : ${data.playerId[changePosition]["level "]}</li>
+                    <li class="list-group-item">Level : ${data.playerId[changePosition]["level"]}</li>
                     <li class="list-group-item">Position : ${data.playerId[changePosition].pos}</li>
                     <li class="list-group-item">Topup : <img src="${iconUrl}" style="width:40px" ></li>
                   </ul>

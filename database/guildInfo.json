@@ -2,39 +2,47 @@
   "playerId": [
     {
       "uid": 1,
-      "name ": " MURAD FF",
-      "level ": "70",
-      "pos": "Acting Guild Leader",
+      "name": "MURAD FF",
+      "level": "70",
+      "pos": "GuildLeader",
       "choose": "yes"
     },
     {
       "uid": 2010406972,
-      "name ": " Badhon",
-      "level ": "70",
+      "name": "Badhon",
+      "level": "70",
       "pos": "Acting Guild Leader",
+      "choose": "yes"
+    },
+
+    {
+      "uid": 1674462658,
+      "name": "EMON",
+      "level": "73",
+      "pos": "Elder",
+      "choose": "no"
+    },
+    {
+      "uid": 1761727829,
+      "name": "NCLR JOKER",
+      "level": "60",
+      "pos": "Member",
       "choose": "no"
     },
 
     {
-      "uid": "1674462658",
-      "name ": " EMON",
-      "level ": "73",
-      "pos": "Acting Guild Leader",
-      "choose": "no"
+      "uid": 1677419493,
+      "name": "LEOM10",
+      "level": "69",
+      "pos": "Elder",
+      "choose": "yes"
     },
     {
-      "uid": "2645928997",
-      "name ": " MURAD FF",
-      "level ": "70",
-      "pos": "Acting Guild Leader",
-      "choose": "no"
-    },
-    {
-      "uid": "2645928997",
-      "name ": " MURAD FF",
-      "level ": "70",
-      "pos": "Acting Guild Leader",
-      "choose": "no"
+      "uid": 883,
+      "name": "LEOM10",
+      "level": "69",
+      "pos": "Elder",
+      "choose": "yes"
     }
   ]
 }
