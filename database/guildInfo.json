@@ -5,14 +5,18 @@
       "name": "MURAD FF",
       "level": "70",
       "pos": "GuildLeader",
-      "choose": "yes"
+      "choose": "yes",
+      "brrank": "MASTER",
+      "csrank": "MASTER"
     },
     {
       "uid": 2010406972,
       "name": "Badhon",
       "level": "70",
       "pos": "Acting Guild Leader",
-      "choose": "yes"
+      "choose": "yes",
+      "brrank": "MASTER",
+      "csrank": "MASTER"
     },
 
     {
@@ -20,14 +24,18 @@
       "name": "EMON",
       "level": "73",
       "pos": "Elder",
-      "choose": "no"
+      "choose": "no",
+      "brrank": "MASTER",
+      "csrank": "MASTER"
     },
     {
       "uid": 1761727829,
       "name": "NCLR JOKER",
       "level": "60",
       "pos": "Member",
-      "choose": "no"
+      "choose": "no",
+      "brrank": "MASTER",
+      "csrank": "MASTER"
     },
 
     {
@@ -35,14 +43,78 @@
       "name": "LEOM10",
       "level": "69",
       "pos": "Elder",
-      "choose": "yes"
+      "choose": "yes",
+      "brrank": "HEROIC",
+      "csrank": "HEROIC"
     },
     {
-      "uid": 883,
-      "name": "LEOM10",
+      "uid": 1599943574,
+      "name": "BD HRIDOY",
+      "level": "79",
+      "pos": "Member",
+      "choose": "no",
+      "brrank": "MASTER",
+      "csrank": "HEROIC"
+    },
+    {
+      "uid": 2224080381,
+      "name": "Rasel BABY",
+      "level": "75",
+      "pos": "Member",
+      "choose": "no",
+      "brrank": "unknown",
+      "csrank": "unknown"
+    },
+    {
+      "uid": 2281520686,
+      "name": "TEB SKYLORD",
       "level": "69",
-      "pos": "Elder",
-      "choose": "yes"
-    }
+      "pos": "Member",
+      "choose": "no"
+    },
+    {
+      "uid": 2676282254,
+      "name": "NCLR DIABLO",
+      "level": "55",
+      "pos": "Member",
+      "choose": "no"
+    },
+    {
+      "uid": 4132246181,
+      "name": "R.R. TANIYA",
+      "level": "65",
+      "pos": "Member",
+      "choose": "no",
+      "brrank": "unknown",
+      "csrank": "unknown"
+    },
+    {
+      "uid": 5577076480,
+      "name": "IMMINHAJ",
+      "level": "57",
+      "pos": "Member",
+      "choose": "no",
+      "brrank": "unknown",
+      "csrank": "unknown"
+    },
+    {
+      "uid": 2143306035,
+      "name": "MR FARUK √",
+      "level": "74",
+      "pos": "Member",
+      "choose": "no",
+      "brrank": "MASTER",
+      "csrank": "HEROIC"
+    },
+    {
+      "uid": 2253053532,
+      "name": "OFF NIBBA",
+      "level": "75",
+      "pos": "Member",
+      "choose": "no",
+      "brrank": "HEROIC",
+      "csrank": "HEROIC"
+    },
+    {}
   ]
 }
