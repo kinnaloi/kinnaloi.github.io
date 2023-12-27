@@ -15,6 +15,7 @@ async function clickToMemberInfo() {
       let changePosition = 0;
       for (var pick in data.playerId) {
         if (data.playerId[changePosition].uid == inputValue.value) {
+          console.log(inputValue.value);
           if (data.playerId[changePosition].choose == "yes") {
             iconUrl = "./assets/image/verified.png";
             diplayValue = "none";
@@ -37,7 +38,7 @@ async function clickToMemberInfo() {
                   
                 </div>
                   
-                  <ul class="list-group list-group-flush">
+                  <ul class="list-group list-group-flush }">
                   <li class="list-group-item"> <b></b></li>
                     <li class="list-group-item">${data.playerId[changePosition].pos} </li>                    
                     <li class="list-group-item">${data.playerId[changePosition].uid} </li>                    
@@ -90,7 +91,7 @@ fetch("./database/guildInfo.json") //await use for wait fetch finish
         iconUrl = "./assets/image/unverified.jpeg";
         diplayValue = "block";
         congr = "none";
-        clr = "white";
+        clr = "silver";
       }
       space += `      
              
