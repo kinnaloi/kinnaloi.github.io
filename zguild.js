@@ -112,8 +112,8 @@ fetch("./database/guildInfo.json") //await use for wait fetch finish
                     <li class="list-group-item">Level : ${data.playerId[changePosition]["level"]}</li>
                     <li class="list-group-item">Topup : <img src="${iconUrl}" style="width:40px" ></li>
                     <p >
-                    <a href="index.html" style ="
-                    text-decoration: none" ><button class ="btn-success"  style="display:${diplayValue};margin-left: 20px;margin-top : 25px; border-radius: 9px ; padding: 9px;">TopUp Now</button></a>
+                    <a href="./freefire.html" style ="
+                    text-decoration: none" ><button class ="btn-danger"  style="display:${diplayValue};margin-left: 20px;margin-top : 25px; border-radius: 9px ; padding: 9px;">TopUp Now</button></a>
                     <button class ="btn-success" style="display:${congr}; margin-left: 20px;margin-top : 25px; border-radius: 9px ; padding: 9px;">Thanks for Shopping with us</button>
                     </p>
                   </ul>

@@ -1,0 +1,23 @@
+{
+  "loginGuild": [
+    {
+      "userid": 2645928997,
+      "name": "Murad",
+      "pass": "PXJ2X2"
+    },
+    {
+      "userid": 2010406972,
+      "pass": "PXJ2X2",
+      "name": "Badhon",
+      "game_name": "—͟͞͞★ ʙᴀᴅʜᴏɴ",
+      "level": "78",
+      "pos": "Acting Guild Leader",
+      "img": "./assets/image/memeber/badhon.jpeg",
+      "choose": "yes",
+      "moneySpend": "35 K+",
+      "diamondSpend": "101 K+",
+      "weekly": "50",
+      "monthly": "10"
+    }
+  ]
+}

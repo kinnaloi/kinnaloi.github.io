@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="zprofile.js"></script>
+    <link rel="stylesheet" href="./stylePages/profile.css">
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<header>
+
+</header>
+<body>
+    <section class="profileSection">
+        <div class="changeJs">
+            <div class="card position-absolute top-50 start-50 translate-middle bg-dark" style="color: white;width: 18rem;
+            padding-bottom: 15px;
+            padding-left: -10px;
+            padding-top: 20px;
+            padding-right:-10px;
+            border-radius: 12px;
+            
+
+            ">
+
+                <div class="card-body">
+                    <p style="text-align: center;font-size: 40px;">PYTHON X</p>
+                    <p style="text-align: right;font-size: 10px;margin-top: -20px;">Login with your UID and Login key
+                    </p>
+
+                    <!-- This area for taking input from user  -->
+                    <p style="text-align: center;">GAME UID
+                        <input type="number"
+                            style="margin-left: 10px;margin-bottom: 9px;text-align: center ; margin-top: -1px; border-radius: 9px;"
+                            title="Enter UID" class="userClass">
+                    </p>
+                    <p style="text-align: center;">LOGIN KEY
+                        <input type="text" style="margin-left: 10px;margin-bottom: 9px;margin-top: -1px; border-radius: 9px;
+                            border: none;text-align: center ; 
+                            " title="Enter pass" class="pwClass">
+                    </p>
+
+                    <button class="position-absolute  start-100 translate-middle btn btn-dark" onclick="id_login()"
+                        style="width: 75px;padding-right: 0;">Login ></button>
+                    <a href="index.html"><button class="position-absolute  start-25 translate-middle btn btn-dark" ">
+                            < Back</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
