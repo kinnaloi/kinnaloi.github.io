@@ -62,7 +62,7 @@ function id_login() {
       }
       if (space.length == 0) {
         alert(
-          "please check your uid or Login key\nif you don't have login key, please purchase some from this website\nhttps://www.kinnaloi.github.io/"
+          "please check your uid or Login key\nif you don't have login key, please purchase Any things from this website\nhttps://www.kinnaloi.github.io/"
         );
         window.location.reload();
       } else {
