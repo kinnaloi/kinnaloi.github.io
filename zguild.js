@@ -13,6 +13,7 @@ async function clickToMemberInfo() {
 
       // space += `<p style="text-align = "center";position : absulote;>Player Info</p> <hr style="margin:10px;">`;
       let changePosition = 0;
+
       for (var pick in data.playerId) {
         if (data.playerId[changePosition].uid == inputValue.value) {
           console.log(inputValue.value);
@@ -56,8 +57,8 @@ async function clickToMemberInfo() {
                 
                 
             `;
-          changePosition = changePosition + 1;
         }
+        changePosition = changePosition + 1;
       }
       detect.innerHTML = space;
       space = "";
