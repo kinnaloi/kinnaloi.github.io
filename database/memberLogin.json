@@ -2,8 +2,17 @@
   "loginGuild": [
     {
       "userid": 2645928997,
+      "pass": "#Murad#",
       "name": "Murad",
-      "pass": "PXJ2X2"
+      "game_name": "MURAD FF √",
+      "level": "70",
+      "pos": "Guild Leader",
+      "img": "./assets/image/memeber/badhon.jpeg",
+      "choose": "yes",
+      "moneySpend": "23 K+",
+      "diamondSpend": "35 K+",
+      "weekly": "30",
+      "monthly": "6"
     },
     {
       "userid": 2010406972,
