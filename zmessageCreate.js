@@ -21,6 +21,8 @@ fetch("./database/database.json")
     detect.innerHTML = space;
   });
 
+// maintain buttons
+
 //message grab from page
 
 function buyNow() {
@@ -59,3 +61,4 @@ function buyNow() {
     window.open(url, "_blank");
   }
 }
+
