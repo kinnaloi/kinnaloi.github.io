@@ -32,17 +32,6 @@
     },
 
     {
-      "uid": 1674462658,
-      "name": "—͟͞͞★ EMON",
-      "level": "73",
-      "pos": "Elder",
-      "img": "./assets/image/memeber/emon.jpg",
-      "choose": "no",
-      "brrank": "MASTER",
-      "csrank": "MASTER"
-    },
-
-    {
       "uid": 1677419493,
       "name": "ㅤʟᴇᴏㅤϻ¹⁰",
       "level": "69",
@@ -51,6 +40,26 @@
       "choose": "yes",
       "brrank": "HEROIC",
       "csrank": "HEROIC"
+    },
+    {
+      "uid": 2143306035,
+      "name": "×͜×мʀ_ғᴀʀuκ√",
+      "level": "75",
+      "pos": "Member",
+      "img": "./assets/image/memeber/faruk.jpg",
+      "choose": "yes",
+      "brrank": "MASTER",
+      "csrank": "MASTER"
+    },
+    {
+      "uid": 1674462658,
+      "name": "—͟͞͞★ EMON",
+      "level": "73",
+      "pos": "Elder",
+      "img": "./assets/image/memeber/emon.jpg",
+      "choose": "no",
+      "brrank": "MASTER",
+      "csrank": "MASTER"
     },
     {
       "uid": 5577076480,
