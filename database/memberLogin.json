@@ -35,12 +35,26 @@
       "game_name": "ㅤʟᴇᴏㅤϻ¹⁰",
       "level": "69",
       "pos": "Elder",
-      "img": "./assets/image/memeber/riayd.jpg",
+      "img": "./assets/image/memeber/riyad.jpg",
       "choose": "yes",
       "moneySpend": "15 K+",
       "diamondSpend": "25 K+",
       "weekly": "7",
       "monthly": "3"
+    },
+    {
+      "userid": 2143306035,
+      "pass": "#Faruk@",
+      "name": "Faruk",
+      "game_name": "×͜×мʀ_ғᴀʀuκ√",
+      "level": "69",
+      "pos": "Member",
+      "img": "./assets/image/memeber/faruk.jpg",
+      "choose": "yes",
+      "moneySpend": "1435 Taka",
+      "diamondSpend": "25 K+",
+      "weekly": "0",
+      "monthly": "1"
     }
   ]
 }
