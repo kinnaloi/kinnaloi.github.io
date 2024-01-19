@@ -3,28 +3,28 @@
     [
       {
         "name": "25 Diamond",
-        "price": 21
+        "price": 23
       },
       {
         "name": "50 Diamond",
-        "price": 35
+        "price": 37
       },
       {
         "name": "💎 115  diamond",
-        "price": 73
+        "price": 74
       },
 
       {
         "name": "💎 240  diamond",
-        "price": 145
+        "price": 148
       },
       {
         "name": "💎 355 diamond",
-        "price": 230
+        "price": 225
       },
       {
         "name": "💎 480  diamond",
-        "price": 310
+        "price": 296
       },
 
       {
@@ -33,39 +33,35 @@
       },
       {
         "name": "💎 1090 diamond",
-        "price": 675
+        "price": 660
       },
       {
         "name": "💎 1240 diamond",
-        "price": 740
+        "price": 735
       },
       {
         "name": "💎 1720 diamond",
-        "price": 1100
-      },
-      {
-        "name": "💎 1960 diamond",
-        "price": 1210
+        "price": 1035
       },
       {
         "name": "💎 2530 diamond",
-        "price": 1500
+        "price": 1480
       },
       {
         "name": "💎 5060 diamond",
-        "price": 3045
+        "price": 2950
       },
       {
         "name": "🪜 Level up pass",
-        "price": 155
+        "price": 145
       },
       {
         "name": "⛱️ Weekly Membership",
-        "price": 150
+        "price": 145
       },
       {
         "name": "🗓️ Monthly Membership",
-        "price": 750
+        "price": 715
       }
     ]
   ],
